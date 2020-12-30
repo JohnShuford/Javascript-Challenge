@@ -1,4 +1,3 @@
-//create the table on the page with the ufo data
 // rename the data to something more specific
 var ufoData = data;
 
@@ -18,7 +17,7 @@ function buildtable(data){
   });
 }
 
-// render the table
+// render the table upon loading
 buildtable(ufoData);
 
 /*filer through the table for a specific date
