@@ -2,21 +2,24 @@
 // rename the data to something more specific
 var ufoData = data;
 
-//empty data
-var emptyData = [{ " ": " "}];
-
-
 // table body refrence
 var tbody = d3.select("tbody");
 
-// render the table
-ufoData.forEach((sightings) => {
-  var row = tbody.append("tr");
-  Object.entries(sightings).forEach(([key, value]) => {
-    var cell = row.append("td");
-    cell.text(value);
+/* creating a function that will render the table 
+with the data that gets passed into it */
+function buildtable(data){
+  tbody.html("");
+  data.forEach((sightings) => {
+    var row = tbody.append("tr");
+    Object.entries(sightings).forEach(([key, value]) => {
+      var cell = row.append("td");
+      cell.text(value);
+    });
   });
-});
+}
+
+// render the table
+buildtable(ufoData);
 
 //filer through the table for a specific date
 // button refrence
@@ -29,16 +32,6 @@ var form = d3.select(".form-group");
 button.on("click", dateSearch);
 form.on("submit",dateSearch);
 
-function buildtable(data){
-  tbody.html("");
-  data.forEach((sightings) => {
-    var row = tbody.append("tr");
-    Object.entries(sightings).forEach(([key, value]) => {
-      var cell = row.append("td");
-      cell.text(value);
-    });
-  });
-}
 
 function dateSearch(){
   // Prevent the page from refreshing
