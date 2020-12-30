@@ -50,7 +50,7 @@ function dateSearch(){
 
   console.log(inputValue);
 
-  var filteredDate = ufoData.filter(item => item[key]===inputValue);
+  var filteredDate = ufoData.filter(item => item.datetime===inputValue);
 
   console.log(filteredDate);
 
