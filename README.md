@@ -71,35 +71,16 @@ CSS
 Here is a code example of a bootstrap navigation bar! They are faily simple to use and customize to any need you may have. Just make sure that you are calling all of the requisite files in the header of your HTML page.
 
 ```sh
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="index.html">
-        <div class="box skyblue">
-          <img src="Resources/Assets/globe2.svg" width="25" height="25" class="d-inline-block align-top" alt="" loading="lazy">
-          Latitude
-        </div>
-      </a>
-      </button>
-      <div class="collapse navbar-collapse mr-auto" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active mr-auto">
-            <a class="nav-link" href="docs/comparisons.html">Comparisons<span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="docs/data.html">Data<span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item dropdown active">
-            <a class="nav-link dropdown-toggle" href="comparisons.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Plots
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="docs/vsCloudiness.html">vsCloudiness</a>
-              <a class="dropdown-item" href="docs/vsHumidity.html">vsHumidity</a>
-              <a class="dropdown-item" href="docs/vsTemprature.html">vsTemprature</a>
-              <a class="dropdown-item" href="docs/vsWindSpeed.html">vsWindSpeed</a>
-            </div>
-          </li>
-        </ul>
-      </div>
+function buildtable(data){
+  tbody.html("");
+  data.forEach((sightings) => {
+    var row = tbody.append("tr");
+    Object.entries(sightings).forEach(([key, value]) => {
+      var cell = row.append("td");
+      cell.text(value);
+      });
+  });
+};
 ```
 
 For more Bootstrap documentation follow this link! https://getbootstrap.com/docs/4.1/getting-started/introduction/
