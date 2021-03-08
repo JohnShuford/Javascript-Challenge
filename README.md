@@ -1,6 +1,6 @@
-[![LinkedIn][linkedin-shield]][linkedin-url]
+[![LinkedIn][linkedin-shield](https://www.linkedin.com/in/john-shuford-data-analyst/)]
 
-Using HTML and Bootstrap I built and deployed a web page to visualize an analysis performed on weather data comparing the effect of latitude on several other primary weather indicators. Take a look the deployed site [Here](https://johnshuford.github.io/Web-Design-Challenge/)!
+I created a page with JavaScript and HTML to produce a table showing UFO sighthing data. This table can then be updated with the filters on the left to narrow down on a specific field that one might be looking for. You can see the deployed webpage [HERE](https://johnshuford.github.io/Javascript-Challenge/)!
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
