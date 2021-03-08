@@ -1,4 +1,4 @@
-[![LinkedIn][linkedin-shield](https://www.linkedin.com/in/john-shuford-data-analyst/)]
+[![LinkedIn][linkedin-shield]](https://www.linkedin.com/in/john-shuford-data-analyst/)
 
 I created a page with JavaScript and HTML to produce a table showing UFO sighthing data. This table can then be updated with the filters on the left to narrow down on a specific field that one might be looking for. You can see the deployed webpage [HERE](https://johnshuford.github.io/Javascript-Challenge/)!
 
