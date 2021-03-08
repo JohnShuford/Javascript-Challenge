@@ -30,14 +30,15 @@ I created a page with JavaScript and HTML to produce a table showing UFO sighthi
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![plot](./Resources/Assets/HomePageScreenShot.png)
-![plot](./Resources/Assets/ComparisonScreenShot.png)
+![plot](./images/ScreenShot.png)
 
-In this project we created an interactive and responsive web page to serve as a dashboard to display analysed weather data in a user friendly way. This project was built using HTML5 and Bootstrap to build the frame work then to make it responsive to any screen size. The homepage shares a beif introduction the dashboard and clicking into the visualizations themselves will give a more detailed discription the specific graph.
+In this project I created a dynamically loading table using several diffrent JavaScript filters. The page is able to update and drill down to the specific paramaters specified with what ever the user puts into the fields on the left.
 
 ### Built With
 
 * [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
+* [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+* [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 * [Bootstrap](https://getbootstrap.com/docs/4.1/getting-started/introduction/)
 
 <!-- GETTING STARTED -->
@@ -51,13 +52,7 @@ It is important to make sure that you have these files refrenced in the head of 
 
 CSS
   ```sh
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384 MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-  ```
-JS
-  ```sh
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/superhero/bootstrap.min.css">
   ```
 
 
